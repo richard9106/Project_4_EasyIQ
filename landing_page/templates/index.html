@@ -1,8 +1,22 @@
-{% extends 'base.html' %}
-{% load static %}
+{% extends 'base.html' %} {% load static %} {% block content %}
 
-{% block content %}
+<div class="container-fluid">
+  <div class="container d-flex justify-content-around mt-5 min-vh-75">
+    <div>
+      <h1>LANDING PAGE</h1>
 
-<h1>LANDING PAGE</h1>
+      <ul class="list-group">
+        <li class=""><i class="fa-light fa-hand"></i>A second item</li>
+        <li class=""><i class="fa-light fa-hand"></i>A third item</li>
+        <li class=""><i class="fa-light fa-hand"></i>A fourth item</li>
+        <li class=""><i class="fa-light fa-hand"></i>And a fifth one</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>IMAGENES</h3>
+    </div>
+  </div>
+</div>
 
 {% endblock%}

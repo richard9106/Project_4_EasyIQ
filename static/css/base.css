@@ -16,6 +16,10 @@ html {
 /*Globals___________________________*/
 body {
   font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+ul,li{
+  list-style: none;
 }
 
 img {
