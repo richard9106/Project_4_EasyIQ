@@ -18,6 +18,7 @@ from django.urls import path, include
 from landing_page import views as index_views
 
 urlpatterns = [
-    path('', index_views.index, name='index'),
+    path('', index_views.index, name='home'),
     path('admin/', admin.site.urls),
+    path('summernote/', include('django_summernote.urls')),
 ]

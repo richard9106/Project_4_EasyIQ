@@ -1,0 +1,36 @@
+:root{
+  --bgcolorone : #dee4f0;
+}
+
+/*This code make 1rem equal to 10px*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*Globals___________________________*/
+body {
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#logo {
+  width: 100px;
+}
+/*End Globals___________________________*/
+
+/*Navegation___________________________*/
+
+.nav-container{
+  background-color: var(--bgcolorone);
+}
+/*End Navegation___________________________*/
