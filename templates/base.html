@@ -29,42 +29,32 @@
     <title>My EasyIQ</title>
   </head>
   <body>
-    <div class="container-fluid nav-container">
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand me-5" href="#"
-            ><img
-              src="../static/images/logo2.png"
-              alt="EasyIq logo"
-              id="logo"
-            /><span class="fs-1 ">EasyIQ</span></a
-          >
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#"
-                >How it works ?</a
-              >
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="{% static 'images/logo2.png' %}" alt="EasyIQ logo" id="logo"><span>EasyIQ</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">How it works ?</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
-            </div>
-          </div>
-          <button type="button" class="btn btn-light">LogIn</button>
+            </li>
+          </ul>
+          
+          <button class="btn btn-light" type="submit">LogIn</button>
           <span class="mx-2">|</span>
-          <button type="button" class="btn btn-success">Let's Start</button>
+          <button class="btn btn-outline-success " type="submit">Let's Start</button>
+          
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <main class="flex-shrink-0 main-bg">
       {% block content %}
