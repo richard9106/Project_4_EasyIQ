@@ -1,20 +1,24 @@
 {% extends 'base.html' %} {% load static %} {% block content %}
 
-<div class="container-fluid">
-  <div class="container d-flex justify-content-around mt-5 min-vh-75">
+<div class="container-fluid home-container ">
+  <div class="container home-content ">
     <div>
-      <h1>LANDING PAGE</h1>
+      <h1 class="title">Because it has never been so easy to manage projects and client-flow</h1>
 
-      <ul class="list-group">
-        <li class=""><i class="fa-light fa-hand"></i>A second item</li>
-        <li class=""><i class="fa-light fa-hand"></i>A third item</li>
-        <li class=""><i class="fa-light fa-hand"></i>A fourth item</li>
-        <li class=""><i class="fa-light fa-hand"></i>And a fifth one</li>
+      <ul class="list-group mt-5 fs-3">
+        <li class="mb-3 "><i class="fa-solid fa-list-check "></i>Improved Customer Management</li>
+        <li class="mb-3"><i class="fa-solid fa-gear "></i>Process Automation</li>
+        <li class="mb-3"><i class="fa-solid fa-dollar  "></i> Increased Sales</li>
+        <li class="mb-3"><i class="fa-solid fa-magnifying-glass "></i>Analysis and Reporting</li>
+        <li class="mb-3"><i class="fa-regular fa-hand "></i>Improved Customer Retention</li>
       </ul>
+
+      <button class="btn btn-lg signup-button ">Let's Start</button>
     </div>
 
     <div>
-      <h3>IMAGENES</h3>
+      <!-- <img src="{% static 'images/fondo1.jpg' %}" class="hero-image" alt=" Assistant "> -->
+      <img src="{% static 'images/fondo2.jpg' %}" class="hero-image" alt=" Freelancer ">
     </div>
   </div>
 </div>

@@ -1,0 +1,42 @@
+/*globals__________*/
+
+i{
+    color:white;
+    padding-right: 10px;
+}
+.signup-button{
+    background-color: var(--colorbase2);
+    border: solid 2px black;
+    width: 200px;
+}
+.signup-button:hover{
+    background-color: white;
+    color: var(--colortitle);
+    border: solid 2px black;
+}
+/*End globals*/
+
+.home-container{
+    
+    background-color:rgba(149, 190, 208, .6) ;
+}
+.home-content{
+    padding-top: 50px;
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-content > div{
+    flex: 0 0 calc(50% - 1rem);
+}
+.title{
+    text-transform: uppercase;
+    font-size: 3rem;
+    color: var(--colortitle);
+}
+
+.hero-image{
+    border-radius: 66% 34% 62% 38% / 48% 58% 42% 52%  ;
+
+}
